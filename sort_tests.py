@@ -1,7 +1,7 @@
 import timeit
 
 numbers = [5, 3, 8, 4, 2]
-def insertion_sort(lst): #Сортування вставками
+def insertion_sort(lst): 
     for i in range(1, len(lst)):
         key = lst[i]
         j = i-1
@@ -14,7 +14,7 @@ def insertion_sort(lst): #Сортування вставками
 def test_insertion_sort():
    insertion_sort(numbers)
 
-def merge_sort(arr):#Сортування злиттям
+def merge_sort(arr):
     if len(arr) <= 1:
         return arr
 
